@@ -32,6 +32,4 @@ public interface IPartieMultiJoueurs {
 	 * @throws IllegalArgumentException si nomDuJoueur ne joue pas dans cette partie
 	 */
 	public int scorePour(String nomDuJoueur) throws IllegalArgumentException;
-	
-	
 }
